@@ -1,22 +1,38 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
+    background-color: red;
+    width: 550px;
     border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
-}
-.display {
-    margin-top: 25px;
+    border: 2px solid black;
+    padding-bottom: 5%;
+  }
+  .numbers {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5rem;
+  }
+  
+  button {
+    color: white;
+    background: blue;
+    border-radius: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px, black;
+   
+  }
+  .display {
+    margin-top: 5%;
     height: 100px;
     width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
+    background-color: black;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
+    padding-right: 15%;
+    font-size: 5rem;
+    border-radius: 50px;
+    color: white;
+   
   }
